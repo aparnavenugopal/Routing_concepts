@@ -1,11 +1,16 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom';
+import MainNavigation from '../components/MainNavigation';
+
 
 const RouteLayout = () => {
   return (
     <>
-     <h1>Root layout</h1>
-     <Outlet/>
+     <MainNavigation/>
+     <main> 
+       <Outlet/>
+     </main>
+   
     </>
   )
 }
