@@ -5,7 +5,7 @@ import { json, redirect } from 'react-router-dom';
 const NewEventPage = () => {
   return (
     <div>
-      <EventForm/>
+      <EventForm method='post'/>
     </div>
   )
 }
